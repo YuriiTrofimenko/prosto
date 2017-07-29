@@ -1,11 +1,17 @@
+$.getScript("js/bootstrap/bootstrap.min.js", function(){
+
+   console.log("bootstrap loaded");
+
+});
+
 $.getScript("js/hogan/hogan-3.0.2.min.js", function(){
 
    console.log("hogan loaded");
 
 });
 
-$.getScript("js/bootstrap/bootstrap.min.js", function(){
+$.getScript("js/custom.js", function(){
 
-   console.log("bootstrap loaded");
+   console.log("custom loaded");
 
 });
